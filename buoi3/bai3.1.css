@@ -1,0 +1,25 @@
+#container{
+     /* chieu dai cha*/
+    margin: 20px auto;
+    height: 200px;
+    width: 800px;
+    background-color:yellow;
+    text-align: center;
+}
+#container-left{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+#container-right{
+    background-color: pink;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.clearfix::after{
+    clear: both;
+    display: block;
+    content:" ";
+}
